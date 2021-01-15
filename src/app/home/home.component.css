@@ -1,0 +1,71 @@
+.btn-end {
+	margin: 10px;;
+	color: #0303ff !important;
+}
+.btn-end:hover {
+	color: #ffffff !important;
+}
+.center-img{
+	padding-top: 15%;
+}
+
+.bg-nav {
+    background: #ffffff;
+} 
+
+.control1{
+    display:none;
+}
+
+.control2{
+    display:none;
+}
+
+@media only screen and (min-width: 992px) {
+    .control1 {
+        display:block;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .control2 {
+        display:block;
+    }
+}
+
+div.img {
+    position: relative; 
+    width: 100%;
+}
+div.img > img{
+    width:100%; 
+    height: 100%
+}
+div.img > div{
+    position: absolute; 
+    left: 50%; 
+    margin-left: -120px; 
+    top: 50%; 
+    margin-top: -75px; 
+    width:66%; 
+    height: 50%; 
+}
+
+.box {
+    float: left;
+    height: 80px;
+    padding: 2%;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow: 0px 0px 2px 2px #ffffff;
+}
+
+.PSL15{
+    position: relative;
+    left:15px;
+}
+
+.icon-color {
+    color: #ea7613;
+}

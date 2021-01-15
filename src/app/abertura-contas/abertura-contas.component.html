@@ -1,0 +1,98 @@
+<div>
+    <img class="img-center" width="180" src="../../assets/imgs/itau-logo.jpg">
+</div>
+<form>
+    <div class="container form-center">
+        <div class="form-box">
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label class="text-white"><b>Nome:</b></label>
+                        <input class="form-control" [(ngModel)]="abrirConta.nome" type="text" name="nome" id="nome"
+                            required />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label class="text-white"><b>CPF:</b></label>
+                        <input class="form-control col-5" [(ngModel)]="abrirConta.cpf" type="text" name="cpf" id="cpf"
+                            required />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label class="text-white"><b>Celular:</b></label>
+                        <input class="form-control col-5" [(ngModel)]="abrirConta.celular" type="text" name="celular"
+                            id="celular" required />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label class="text-white"><b>E-mail:</b></label>
+                        <input class="form-control" [(ngModel)]="abrirConta.dataNasc" type="email" name="email"
+                            id="email" required />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label class="text-white"><b>Data de Nascimento:</b></label>
+                        <input class="form-control col-7" [(ngModel)]="abrirConta.dataNasc" type="date" name="dataNasc"
+                            id="dataNasc" required />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label class="text-white"><b>Senha:</b></label>
+                        <input class="form-control col-6" maxlength="8" minlength="6" [(ngModel)]="abrirConta.senha"
+                            type="password" name="senha" id="senha" required />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label class="text-white"><b>Confirmar senha:</b></label>
+                        <input class="form-control col-6" maxlength="8" minlength="6"
+                            [(ngModel)]="abrirConta.confirmSenha" type="password" name="confirmsenha" id="confirmsenha"
+                            required />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="checkLembrarMe">
+                        <label class="form-check-label text-white" for="checkLembrarMe">Aceito termos</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="checkLembrarMe">
+                        <label class="form-check-label text-white" for="checkLembrarMe">Desejo receber mais informacoes
+                            sobre investimentos via SMS ou e-mail </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary form-btn">Enviar</button>
+                        <a routerLink="/home" class="btn btn-primary form-btn">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
